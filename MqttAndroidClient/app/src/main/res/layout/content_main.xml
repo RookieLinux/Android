@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ukj"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/light" />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_below="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <!--<TextView-->
+        <!--android:id="@+id/txt0"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="@dimen/activity_vertical_margin"-->
+        <!--android:text="光敏:"-->
+        <!--android:textColor="#000000" />-->
+    <!--<TextView-->
+        <!--android:id="@+id/txt1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="34dp"-->
+        <!--android:text="温度:"-->
+        <!--android:textColor="#000000" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="54dp"-->
+        <!--android:text="湿度:"-->
+        <!--android:textColor="#000000" />-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@id/txt0"-->
+        <!--android:id="@+id/txt3"-->
+        <!--android:textColor="#000000"-->
+        <!--android:text="0"-->
+        <!--android:layout_marginTop="@dimen/activity_vertical_margin"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@id/txt1"-->
+        <!--android:id="@+id/txt4"-->
+        <!--android:textColor="#000000"-->
+        <!--android:text="0.0"-->
+        <!--android:layout_below="@+id/txt3"/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@id/txt2"-->
+        <!--android:id="@+id/txt5"-->
+        <!--android:textColor="#000000"-->
+        <!--android:text="0.0"-->
+        <!--android:layout_below="@id/txt4"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/txtpub"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/txt0"-->
+        <!--android:layout_marginTop="64dp"-->
+        <!--android:text="发布主题"-->
+        <!--android:textColor="#000000" />-->
+</RelativeLayout>
